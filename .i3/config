@@ -43,6 +43,13 @@ bindsym $mod+Shift+q kill
 #bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -fn 'Liberation-9' -nb '#303030'"
 bindsym $mod+d exec --no-startup-id rofi -show  run -theme flat_orange
 
+
+# Make the currently focused window a scratchpad
+bindsym $mod+Shift+p move scratchpad
+
+# Show the first scratchpad window
+bindsym $mod+p scratchpad show
+
 # change focus
 bindsym $mod+h focus left
 bindsym $mod+j focus down
@@ -99,10 +106,10 @@ bindsym XF86AudioMute exec amixer -D pulse set Master toggle
 bindsym XF86AudioMicMute exec amixer -D pulse set Capture toggle
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec light -A 5 # increase screen brightness
+bindsym XF86MonBrightnessDown exec light -U 5 # decrease screen brightnessi
 
-# switch to workspace
+
 bindsym $mod+1 workspace 1
 bindsym $mod+2 workspace 2
 bindsym $mod+3 workspace 3
