@@ -21,12 +21,14 @@ set statusline +=%=%l              "current line
 set statusline +=%=/%L             "total lines
 "hi StatusLine ctermfg=LightGray ctermbg=Black
 hi StatusLine cterm=underline ctermfg=White ctermbg=Black
+
+hi Normal ctermbg=none
 "set autochdir
 
 "setup line numbers
 set number "add line numbers
 "set relativenumber "add relative line numbers
-hi LineNr ctermbg=Black ctermfg=DarkGray
+hi clear LineNr
 hi CursorLineNr ctermbg=Black ctermfg=DarkGray
 
 hi MatchParen cterm=underline ctermbg=Black ctermfg=Gray
@@ -50,6 +52,7 @@ nnoremap <c-l> <c-w>l
 "file formatting
 set tabstop=2 expandtab shiftwidth=2
 autocmd FileType c setlocal autoindent cindent expandtab
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 au BufRead,BufNewFile *.md set filetype=pandoc
 
 "prettify split boundaries
@@ -66,10 +69,11 @@ hi TabLine term=none cterm=none ctermbg=Black ctermfg=Gray
 hi TabLineSel term=underline cterm=underline ctermbg=Black ctermfg=Gray
 
 "gitgutter brighter colors
-hi GitGutterDelete ctermfg=Red ctermbg=Black
-hi GitGutterAdd ctermfg=Green ctermbg=Black
-hi GitGutterChange ctermfg=Yellow ctermbg=Black
-hi GitGutterChangeDelete ctermbg=Black
+hi GitGutterDelete ctermfg=Red ctermbg=none
+hi GitGutterAdd ctermfg=Green ctermbg=none
+hi GitGutterChange ctermfg=Yellow ctermbg=none
+hi GitGutterChangeDelete ctermbg=none
+hi clear SignColumn
 
 "tabcomplete attempt needs more work
 set wildmode=longest,list,full

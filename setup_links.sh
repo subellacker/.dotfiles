@@ -3,13 +3,18 @@
 ln -sf ~/.dotfiles/.bashrc ~/.bashrc
 ln -sf ~/.dotfiles/.vim ~/.vim
 ln -sf ~/.dotfiles/.vimrc ~/.vimrc
-ln -sf ~/.dotfiles/.tmux.conf ~/.tmux.conf
-ln -sf ~/.dotfiles/.gitconfig ~/.gitconfig
-ln -sf ~/.dotfiles/.Xresources ~/.Xresources
-ln -sf ~/.dotfiles/.i3 ~/.i3
-ln -sf ~/.dotfiles/.config ~/.config
+#ln -sf ~/.dotfiles/.tmux.conf ~/.tmux.conf
+#ln -sf ~/.dotfiles/.gitconfig ~/.gitconfig
+#ln -sf ~/.dotfiles/.Xresources ~/.Xresources
+ln -sf ~/.dotfiles/.i3/config ~/.config/i3/config
+#ln -sf ~/.dotfiles/.config ~/.config
 ln -sf ~/.dotfiles/background.png ~/.background.png
 ln -sf ~/.dotfiles/.dircolors ~/.dircolors
+ln -sf ~/.dotfiles/.i3status/config ~/.config/i3status/config
+ln -sf ~/.dotfiles/.polybar/config ~/.config/polybar/config
+ln -sf ~/.dotfiles/.rofi/config.rasi ~/.config/rofi/config.rasi
+ln -sf ~/.dotfiles/.rofi/arc-dark.rasi ~/.config/rofi/arc-dark.rasi
+ln -sf ~/.dotfiles/.rofi/flat_orange.rasi ~/.config/rofi/flat_orange.rasi
 
 #sudo apt install xserver-xorg-input-synaptics
 #update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/local/bin/st 50
