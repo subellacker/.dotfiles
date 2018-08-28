@@ -4,13 +4,14 @@ ln -sf ~/.dotfiles/.bashrc ~/.bashrc
 ln -sf ~/.dotfiles/.vim ~/.vim
 ln -sf ~/.dotfiles/.vimrc ~/.vimrc
 #ln -sf ~/.dotfiles/.tmux.conf ~/.tmux.conf
-#ln -sf ~/.dotfiles/.gitconfig ~/.gitconfig
+ln -sf ~/.dotfiles/.git/.gitconfig ~/.gitconfig
 #ln -sf ~/.dotfiles/.Xresources ~/.Xresources
 ln -sf ~/.dotfiles/.i3/config ~/.config/i3/config
 #ln -sf ~/.dotfiles/.config ~/.config
 ln -sf ~/.dotfiles/background.png ~/.background.png
 ln -sf ~/.dotfiles/.dircolors ~/.dircolors
 ln -sf ~/.dotfiles/.i3status/config ~/.config/i3status/config
+ln -sf ~/.dotfiles/.compton/compton.conf ~/.config/compton.conf
 ln -sf ~/.dotfiles/.polybar/config ~/.config/polybar/config
 ln -sf ~/.dotfiles/.rofi/config.rasi ~/.config/rofi/config.rasi
 ln -sf ~/.dotfiles/.rofi/arc-dark.rasi ~/.config/rofi/arc-dark.rasi
