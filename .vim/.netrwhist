@@ -1,7 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/subella/.dotfiles'
-let g:netrw_dirhist_2='/home/subella/.dotfiles/.i3'
-let g:netrw_dirhist_3='/home/subella'
-let g:netrw_dirhist_4='/home/subella/.dotfiles'
-let g:netrw_dirhist_5='/home/subella/.dotfiles/.i3'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/subella/.dotfiles/.i3'
