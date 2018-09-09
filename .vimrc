@@ -31,6 +31,8 @@ set number "add line numbers
 hi clear LineNr
 hi CursorLineNr ctermbg=Black ctermfg=DarkGray
 
+hi Visual ctermfg=Blue ctermbg=NONE cterm=bold,underline
+
 hi MatchParen cterm=underline ctermbg=Black ctermfg=Gray
 hi Search ctermbg=Black
 hi Explorer cterm=underline ctermbg=Black

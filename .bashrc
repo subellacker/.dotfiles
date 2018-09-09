@@ -57,6 +57,9 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+alias monitor='xrandr --output eDP1 --auto --output HDMI1 --auto --left-of eDP1'
+alias laptop='xrandr --output HDMI1 --off'
+
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
@@ -114,3 +117,7 @@ echo -ne "\e]4;15;#f9f9f9\a"  #white
 #echo -ne "\e]4;12;#a1c2de\a"  #lightblue   
 #echo -ne "\e]4;13;#d2b4db\a"  #lightmagenta
 #echo -ne "\e]4;14;#aaded7\a"  #lightcyan   
+
+
+#class work aliases
+alias vm='ssh subella@subella.perf.engineering'
