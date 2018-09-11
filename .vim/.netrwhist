@@ -1,8 +1,8 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/subella/.dotfiles/.i3'
-let g:netrw_dirhist_2='/home/subella/.ssh'
-let g:netrw_dirhist_3='/home/subella/Documents/6.172/write_ups/write_up_1'
-let g:netrw_dirhist_4='/home/subella/Documents/6.172/write_ups'
-let g:netrw_dirhist_5='/home/subella/Documents/6.172/write_ups/template'
-let g:netrw_dirhist_6='/home/subella/.dotfiles'
+let g:netrw_dirhist_1='/home/subella/Dropbox (MIT)/Courses/6.172'
+let g:netrw_dirhist_2='/home/subella/Dropbox (MIT)/Courses'
+let g:netrw_dirhist_3='/home/subella/Dropbox (MIT)'
+let g:netrw_dirhist_4='/home/subella'
+let g:netrw_dirhist_5='/home/subella/.dotfiles'
+let g:netrw_dirhist_6='/home/subella/Dropbox (MIT)/Courses/6.172/psets/pset_1'

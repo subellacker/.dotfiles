@@ -57,8 +57,12 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+#monitor alias
 alias monitor='xrandr --output eDP1 --auto --output HDMI1 --auto --left-of eDP1'
 alias laptop='xrandr --output HDMI1 --off'
+
+#sleep alias
+alias sleep='sudo pm-suspend'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -120,4 +124,4 @@ echo -ne "\e]4;15;#f9f9f9\a"  #white
 
 
 #class work aliases
-alias vm='mosh subella@subella.perf.engineering'
+alias vm='ssh subella@subella.perf.engineering'

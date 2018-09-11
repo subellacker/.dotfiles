@@ -235,8 +235,8 @@ bindsym $mod+r mode "resize"
 #  }
 #}
 
+exec --no-startup-id dropbox start
 exec --no-startup-id xset r rate 200 25 # Set initial delay 300ms, repeat 35ms
 exec --no-startup-id compton --config ~/.config/compton.conf -b
 exec sh ~/.fehbg
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-
