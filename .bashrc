@@ -124,4 +124,4 @@ echo -ne "\e]4;15;#f9f9f9\a"  #white
 
 
 #class work aliases
-alias vm='ssh subella@subella.perf.engineering'
+alias vm='ssh -X subella@subella.perf.engineering'

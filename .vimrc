@@ -6,11 +6,9 @@ set t_Co=16
 set title
 set titleold=""
 set titlestring=%{substitute(getcwd(),\ $HOME,\ '~',\ '')}"%{getcwd()}
-
 set nocompatible
 filetype plugin on
 syntax on
-
 "need to make custom colors right on session restore
 set sessionoptions-=options
 "display current dir and filename in status bar
@@ -24,6 +22,10 @@ hi StatusLine cterm=underline ctermfg=White ctermbg=Black
 
 hi Normal ctermbg=none
 "set autochdir
+
+"autocompletion color
+highlight Pmenu ctermfg=15 ctermbg=0 guifg=#ffffff guibg=#000000
+highlight PmenuSel ctermfg=Blue ctermbg=0 guifg=#ffffff guibg=#000000
 
 "setup line numbers
 set number "add line numbers
