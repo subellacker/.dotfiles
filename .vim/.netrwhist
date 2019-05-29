@@ -1,7 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/subella/Dropbox (MIT)/Courses/6.034/psets/pset_2'
-let g:netrw_dirhist_2='/home/subella/Dropbox (MIT)/Courses/6.034/psets'
-let g:netrw_dirhist_3='/home/subella/Dropbox (MIT)/Courses/6.034/psets/pset_3'
-let g:netrw_dirhist_4='/home/subella/Dropbox (MIT)/Courses/6.034/psets/pset_3/pset_3_ans_games'
-let g:netrw_dirhist_5='/home/subella/Dropbox (MIT)/Courses/6.172/psets/pset_4/pset_4_ans_parallelism/nqueens'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/subella/.dotfiles/.i3'
+let g:netrw_dirhist_2='/home/subella/Dropbox (MIT)/Courses/6.003/labs/lab_6/fft'
+let g:netrw_dirhist_3='/home/subella/Dropbox (MIT)/src/dryland_bot/.git'
